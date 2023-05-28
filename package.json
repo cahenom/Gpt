@@ -1,0 +1,33 @@
+{
+  "name": "WA-bot-ChatGPT",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot Chat GPT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danikoding/wa-bot-chatgpt"
+  },
+  "keywords": [
+    "Bot",
+    "WhatsApp",
+    "Chat",
+    "GPT"
+  ],
+  "author": "Dani Coding",
+  "email": "danzzcoding@gmail.com",
+  "whatsapp": "6289512545999",
+  "github": "danikoding",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.2.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "qrcode-terminal": "^0.12.0",
+    "chalk": "^4.1.2",
+    "pino": "^7.0.5",
+    "axios": "^1.3.4",
+    "openai": "^3.2.1"
+  }
+}
